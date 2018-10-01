@@ -1,0 +1,4 @@
+buffer_mgr.c: In function ‘initBufferPool’:
+buffer_mgr.c:39:15: warning: assignment discards ‘const’ qualifier from pointer target type [enabled by default]
+  bm->pageFile = pageFileName;
+               ^
